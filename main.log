@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.3)  29 NOV 2016 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.3)  29 NOV 2016 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1305,7 +1305,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Figures/bits-logo.pdf, id=44, 173.54195pt x 174.3672pt>
+<Figures/bits-logo.pdf, id=52, 173.54195pt x 174.3672pt>
 File: Figures/bits-logo.pdf Graphic file (type pdf)
 
 <use Figures/bits-logo.pdf>
@@ -1319,15 +1319,9 @@ Package pdftex.def Info: Figures/bits-logo.pdf used on input line 37.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/bits-logo.pdf>]
 ------------------------------------------------------------------------------
- Abstract Page
-------------------------------------------------------------------------------
-[1]
-------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
-[2
-
-]
+[1]
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
@@ -1355,26 +1349,17 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [3
+ [2
 
 
 ]
-No file main.gls.
-[4
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 64--73
-
- []
-
-[5
-
-] (./Chapters/Chapter1.tex
+(./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Fields Describing Free Particles
 ------------------------------------------------------------------------------
 [1
+
 
 
 ]
@@ -1732,17 +1717,115 @@ Chapter 3.
 ------------------------------------------------------------------------------
  3 Non-Abelian Gauge Theory
 ------------------------------------------------------------------------------
-) [6
+! Missing { inserted.
+<to be read again> 
+                   }
+l.25 L_{\psi^{'}} = \overset{_}{\psi}
+                                     U^{-1}(i{\gamma^\mu}\partial_\mu-m)U\psi
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
- [8
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.26 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.26 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.28 L_{\psi^{'}} = L_\psi + \overset{_}{\psi}
+                                              U^{-1}(i{\gamma^\mu})\partial_...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.29 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.29 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.34 {L} = \overset{_}{\psi}
+                            (i{\gamma^\mu}D_\mu-m)\psi
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.35 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.35 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[6
+
+]) [7]
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+(Remove \makeglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
+[8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1750,15 +1833,15 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 0121AC6D724445B1B843BD5C627B23A0;1542
-(rerunfilecheck)             After:  664007D99F7679103491064068A2C5AD;2342.
+(rerunfilecheck)             Before: 3D01E2380084BFD3C346CB82C808958C;2044
+(rerunfilecheck)             After:  1C1AD85894C842CF6A355CF4E8759BFF;1962.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  )
 (\end occurred inside a group at level 2)
 
@@ -1767,31 +1850,57 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
 ### bottom level
 (\end occurred when \iftrue on line 17 was incomplete) 
 Here is how much of TeX's memory you used:
- 23264 strings out of 493029
- 354744 string characters out of 6136235
- 754292 words of memory out of 5000000
+ 23259 strings out of 493029
+ 354715 string characters out of 6136235
+ 755292 words of memory out of 5000000
  26309 multiletter control sequences out of 15000+600000
- 18225 words of font info for 95 fonts, out of 8000000 for 9000
+ 17663 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,18n,51p,1938b,933s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (14 pages, 222593 bytes).
+pdfTeX warning (dest): na
+me{section.35} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.34} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.30} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.26} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.21} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.18} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.3} has been referenced but does not exist, re
+placed by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (11 pages, 223222 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
- 21078 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 20582 words of extra memory for PDF output out of 20736 (max. 10000000)
 

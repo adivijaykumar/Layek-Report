@@ -12,28 +12,31 @@
 
 \section{Yang-Mills Theory of non-Abelian gauge fields}
 
-As we have already seen, 
+As we have already seen, a Lagrangian should remain invariant under global/local transformations. This means that the Lagrangian should have both global and local symmetries.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque molestie, ante a tincidunt ullamcorper, sapien enim dignissim lacus, in semper nibh erat lobortis purus. Integer dapibus ligula ac risus convallis pellentesque.
+For spin-1 fields, like the electromagnetic field, U(1) symmetries exist. For other fields, such as the gluonic field for instance, SU(N) symmetry exists.
 
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Subsection 1}
+Let's consider one such system given by 
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
 
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
+Let $\psi^{'} = U\psi$, $U \in SU(N)$. We can then say
 
-\subsection{Subsection 2}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
+\begin{equation}
+L_{\psi^{'}} = \overset{_}{\psi}U^{-1}(i{\gamma^\mu}\partial_\mu-m)U\psi
+\end{equation}
+\begin{equation}
+L_{\psi^{'}} = L_\psi + \overset{_}{\psi}U^{-1}(i{\gamma^\mu})\partial_\mu(U)\psi \\
+\end{equation}
+This hence warants the introduction of a new gauge field such that $L_{\psi^{'}} = L_\psi$
 
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
+We introduce covariant derivative $D_{\mu}$, such that the modified Lagrangian is given by
+\begin{equation}
+{L} = \overset{_}{\psi}(i{\gamma^\mu}D_\mu-m)\psi
+\end{equation}
+$D_\mu = \partial_\mu +igT_{a}A^{a}_{\mu}$, where $g$ is coupling constant, $T_{a}$ are the generators of SU(N), and $A^{a}_{\mu}$ is the gauge field.
 
-\section{Main Section 2}
+It can be proved that the this Lagrangian is invariant under SU(N), and the following condition is satisfied
 
-Sed ullamcorper quam eu nisl interdum at interdum enim egestas. Aliquam placerat justo sed lectus lobortis ut porta nisl porttitor. Vestibulum mi dolor, lacinia molestie gravida at, tempus vitae ligula. Donec eget quam sapien, in viverra eros. Donec pellentesque justo a massa fringilla non vestibulum metus vestibulum. Vestibulum in orci quis felis tempor lacinia. Vivamus ornare ultrices facilisis. Ut hendrerit volutpat vulputate. Morbi condimentum venenatis augue, id porta ipsum vulputate in. Curabitur luctus tempus justo. Vestibulum risus lectus, adipiscing nec condimentum quis, condimentum nec nisl. Aliquam dictum sagittis velit sed iaculis. Morbi tristique augue sit amet nulla pulvinar id facilisis ligula mollis. Nam elit libero, tincidunt ut aliquam at, molestie in quam. Aenean rhoncus vehicula hendrerit.
+\begin{equation}
+T_{a}{A^{a}_{\mu}}^{'} = \frac{i}{g}(\partial_{\mu}U)U^{-1} + UT_{a}A^{a}_{\mu}U^{-1}
+\end{equation}
