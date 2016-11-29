@@ -1,0 +1,60 @@
+% Chapter Template
+
+\chapter{Abelian Gauge Theory} % Main chapter title
+
+\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter X. \emph{Abelian Gauge Theory}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+We described global gauge invariance in the previous chapter. Global gauge invariance implies that the gauge transformation is not a function of spacetime. It sometimes might not be enough for a Lagrangian to just be globally invariant - as we know, quite a lot of transformations are spacetime dependent. We need to construct our theories keeping this spacetime dependence in mind. Such a gauge transformation, which is dependent on spacetime, is called local gauge transformation.
+
+Local Transformations are given by the following
+\begin{subequations}
+\begin{align}
+\psi \xrightarrow{} e^{-ieQ{\theta}(x)}\psi\\
+A_\mu \xrightarrow{} {A^'}_\mu
+\end{align}
+\end{subequations}
+
+\section{Quantum Electrodynamics}
+The Dirac Lagrangian is given by
+\begin{equation}
+{L} = \overset{-}{\psi}(i{\gamma^\mu}\partial_\mu-m)\psi
+\end{equation}
+
+If we apply local gauge transformation to this equation, we get
+\begin{equation}
+{L^'}= \overset{-}{\psi}(i\gamma^\mu\partial_{\mu}-m)\psi-eQ({A^'}_{\mu}-\partial_\mu\theta)\overset{-}\psi\gamma^0\psi
+\end{equation}
+
+It can clearly be seen that the Lagrangian will remain invariant under the local gauge transformation if ${A^'}_\mu \xrightarrow{} {A_\mu}+{\partial_\mu}\theta$. This is the gauge transformation associated with electromagnetic field. Thus, adding the gauge term and the electromagnetic field Lagrangian, we get
+
+\begin{equation}
+{L} = \overset{-}{\psi}(i\gamma^{\mu}\partial_\mu-m){\psi}-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}-eQ\overset{-}{\psi}{\gamma}^0{\psi}A_\mu
+\end{equation}
+
+This is the Lagrangian of Quantum Electrodynamics (QED).
+
+Lets now analyze each term of the above equation. The first term \overset{-}{\psi}(i\gamma^{\mu}\partial_\mu-m){\psi} is the same as the one in the Dirac equation and hence describes free particle with spin $\frac{1}{2}$. The term $-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}$ comes from the electromagnetic field Lagrangian, and describes a photon field. The last term  $-eQ\overset{_}{\psi}{\gamma}^0{\psi}A_\mu$ is the term that introduces interaction between the particle field and the photon field.
+
+The Lagrangian should be Lorentz invariant, to corroborate with relativity. This means that under a Lorentz boost ${\Lambda^\mu}_\nu$, $S^{-1}{\gamma^\mu}S={\Lambda^\mu}_\nu{\gamma^\nu}$ holds true.
+
+The solutions to the Hamiltonian of QED generated from the Euler-Lagrange equations are Bilinear Covariants as they transform according to $S^{-1}{\gamma^\mu}S={\Lambda^\mu}_\nu{\gamma^\nu}$ for given S.
+
+These bilinear covariants form the following physical quantities
+\begin{center}
+\begin{tabular}{l|c|r}
+\hline
+$\overset{_}{\psi}\psi$ & Scalar & Space Inversion:+\\ \hline
+$\overset{_}{\psi}{\gamma^\mu}\psi$ & Vector & Space Inversion:-\\ \hline
+$\overset{_}{\psi}\sigma^{\mu\nu}$ & Tensor & \\ \hline
+$\overset{_}{\psi}\gamma^5\gamma^\mu\psi$ & Axial Vector & Space Inversion:+\\ \hline
+$\overset{_}{\psi}\gamma^5\psi$ & Pseudoscalar & Space Inversion:-\\ \hline
+\end{tabular}
+\end{center}
+
+where $\gamma^5$ is $i\gamma^0\gamma^1\gamma^2\gamma^3$.
