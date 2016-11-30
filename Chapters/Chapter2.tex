@@ -10,42 +10,40 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-We described global gauge invariance in the previous chapter. Global gauge invariance implies that the gauge transformation is not a function of spacetime. It sometimes might not be enough for a Lagrangian to just be globally invariant - as we know, quite a lot of transformations are spacetime dependent. We need to construct our theories keeping this spacetime dependence in mind. Such a gauge transformation, which is dependent on spacetime, is called local gauge transformation.
-
-Local Transformations are given by the following
+\section{Local Gauge Invariance}
+The previous chapter concluded with a gauge transformation of the Dirac Field that kept it invariant. The gauge transformation was a global one due to the fact that the actual nature of the transformation didn't depend on the position of the particle in space-time. We, however, can't expect all situations that appear in nature to be so. There could be transformations that depend on where the particle is, and the Lagrangian has to remain invariant to that transformation as well. Such transformations are called local transformations and are given by,
 \begin{subequations}
 \begin{align}
 \psi \xrightarrow{} e^{-ieQ{\theta}(x)}\psi\\
 A_\mu \xrightarrow{} {A^'}_\mu
 \end{align}
-\end{subequations}
+\end{subequations}\cite{lahiri04}
+The transformed Lagrangian will be \cite{lahiri04}
 
-\section{Quantum Electrodynamics}
-The Dirac Lagrangian is given by
 \begin{equation}
-{L} = \overset{-}{\psi}(i{\gamma^\mu}\partial_\mu-m)\psi
+L^'}=\overset{-}{\psi}(i\gamma^\mu\partial_{\mu}-m)\psi-eQ({A^'}_{\mu}-\partial_\mu\theta)\overset{-}\psi\gamma^0 \psi\\
 \end{equation}
-
-If we apply local gauge transformation to this equation, we get
-\begin{equation}
-{L^'}= \overset{-}{\psi}(i\gamma^\mu\partial_{\mu}-m)\psi-eQ({A^'}_{\mu}-\partial_\mu\theta)\overset{-}\psi\gamma^0\psi
-\end{equation}
-
-It can clearly be seen that the Lagrangian will remain invariant under the local gauge transformation if ${A^'}_\mu \xrightarrow{} {A_\mu}+{\partial_\mu}\theta$. This is the gauge transformation associated with electromagnetic field. Thus, adding the gauge term and the electromagnetic field Lagrangian, we get
-
+The Lagrangian will remain invariant if ${A^'}_\mu \xrightarrow{} {A_\mu}+{\partial_\mu}\theta$. This is the familiar gauge transformation of the Electromagnetic field that was introduced in the previous chapter. Thus, upon adding a gauge field term and the Lagrangian of the Electromagnetic Field for logical consistency, we get
 \begin{equation}
 {L} = \overset{-}{\psi}(i\gamma^{\mu}\partial_\mu-m){\psi}-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}-eQ\overset{-}{\psi}{\gamma}^0{\psi}A_\mu
 \end{equation}
+This is the Lagrangian of Quantum Electrdynamics or QED.
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
 
-This is the Lagrangian of Quantum Electrodynamics (QED).
-
-Lets now analyze each term of the above equation. The first term \overset{-}{\psi}(i\gamma^{\mu}\partial_\mu-m){\psi} is the same as the one in the Dirac equation and hence describes free particle with spin $\frac{1}{2}$. The term $-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}$ comes from the electromagnetic field Lagrangian, and describes a photon field. The last term  $-eQ\overset{_}{\psi}{\gamma}^0{\psi}A_\mu$ is the term that introduces interaction between the particle field and the photon field.
-
-The Lagrangian should be Lorentz invariant, to corroborate with relativity. This means that under a Lorentz boost ${\Lambda^\mu}_\nu$, $S^{-1}{\gamma^\mu}S={\Lambda^\mu}_\nu{\gamma^\nu}$ holds true.
-
-The solutions to the Hamiltonian of QED generated from the Euler-Lagrange equations are Bilinear Covariants as they transform according to $S^{-1}{\gamma^\mu}S={\Lambda^\mu}_\nu{\gamma^\nu}$ for given S.
-
-These bilinear covariants form the following physical quantities
+\section{Quantum Electrodynamics}
+As was shown in the previous section, the Lagrangian of QED is
+\begin{equation}
+{L} = \overset{_}{\psi}(i\gamma^{\mu}\partial_\mu-m){\psi}-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}-eQ\overset{_}{\psi}{\gamma}^0{\psi}{A_\mu}	
+\end{equation}
+While $\overset{_}{\psi}(i\gamma^{\mu}\partial_\mu-m){\psi}$ describes the free spin $\frac{1}{2}$ particle and $-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}$ describes the photon field, $-eQ\overset{_}{\psi}{\gamma}^0{\psi}A_\mu$ describes the interaction between the two. An observation to make is that the quantum of electric charge, together with the net total number of charged particles, that enable the interaction as they act as the coupling parameter. This reinforces the fact that only charged particles interact with the Electromagnetic field. The Electromangetic field is also called the bosonic field as they represent photons that act as spin-1 carriers of the field when interacting with an electron current $eQ\overset{_}{\psi}{\gamma}^0{\psi}$.\\
+The form of the Lagrangian is Lorentz invariant. Under a Lorentz boost ${\Lambda^mu}_\nu$, the wavefunction of the particle transforms as follows to preserve invariance \cite{halzen84}.
+\begin{equation}
+S^{-1}{\gamma^\mu}S={\Lambda^\mu}_\nu{\gamma^\nu}
+\end{equation}
+This equation demonstrated that while the representation of $\gamma^\mu$ changes from frame to frame, the underlying physics remains the same.\\
+The solutions to the Hamiltonian of QED that is generated from the Euler-Lagrange equations are Bilinear covariants as they transform according to (2.5). They however form a wide variety of physical quantities as follows \cite{halzen84}
 \begin{center}
 \begin{tabular}{l|c|r}
 \hline
@@ -57,4 +55,4 @@ $\overset{_}{\psi}\gamma^5\psi$ & Pseudoscalar & Space Inversion:-\\ \hline
 \end{tabular}
 \end{center}
 
-where $\gamma^5$ is $i\gamma^0\gamma^1\gamma^2\gamma^3$.
+where $\gamma^5$ is $i\gamma^0\gamma^1\gamma^2\gamma^3$

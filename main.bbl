@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.6 $
+% $ biblatex version 2.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,57 +16,83 @@
   {}
 \endgroup
 
-\entry{kendall2007practical}{inproceedings}{}
-  \name{author}{2}{}{%
+\entry{griffiths13}{book}{}
+  \name{author}{1}{}{%
     {{}%
-     {Kendall}{K.}%
-     {Kris}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {McMillan}{M.}%
-     {Chad}{C.}%
+     {Griffiths}{G.}%
+     {David}{D.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{KKMC1}
-  \strng{fullhash}{KKMC1}
-  \field{sortinit}{K}
-  \field{booktitle}{Black Hat Conference, USA}
-  \field{pages}{10}
-  \field{title}{Practical malware analysis}
-  \field{year}{2007}
+  \strng{namehash}{GD1}
+  \strng{fullhash}{GD1}
+  \field{sortinit}{G}
+  \field{title}{Introduction to Electrodynamics}
+  \field{year}{2013}
 \endentry
 
-\entry{cmu-malware}{article}{}
-  \name{author}{4}{}{%
+\entry{griffiths08}{book}{}
+  \name{author}{1}{}{%
     {{}%
-     {O’Meara}{O.}%
-     {Kyle}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shick}{S.}%
-     {Deana}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Spring}{S.}%
-     {Jonathan}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Stoner}{S.}%
-     {Edward}{E.}%
+     {Griffiths}{G.}%
+     {David}{D.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{OK+1}
-  \strng{fullhash}{OKSDSJSE1}
-  \field{sortinit}{O}
-  \field{title}{Malware Capability Development Patterns Respond To Defenses:
-  Two Case Studies}
-  \field{year}{2016}
+  \strng{namehash}{GD1}
+  \strng{fullhash}{GD1}
+  \field{sortinit}{G}
+  \field{title}{Introduction to Elementary Particles}
+  \field{year}{2008}
+\endentry
+
+\entry{halzen84}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Halzen}{H.}%
+     {Francis}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martin}{M.}%
+     {{Alan D.}~Martin}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HFMAM1}
+  \strng{fullhash}{HFMAM1}
+  \field{sortinit}{H}
+  \field{title}{Quarks and Leptons, An Introductory Course in Modern Partice
+  Physics}
+  \field{year}{1984}
+\endentry
+
+\entry{KGE}{online}{}
+  \field{sortinit}{K}
+  \field{title}{Klein-Gordon equation}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation
+  \endverb
+\endentry
+
+\entry{lahiri04}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lahiri}{L.}%
+     {Amitabha}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pal}{P.}%
+     {{Palash B}.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LAPP1}
+  \strng{fullhash}{LAPP1}
+  \field{sortinit}{L}
+  \field{title}{A First Book of Quantum Field Theory}
+  \field{year}{2004}
 \endentry
 
 \lossort
