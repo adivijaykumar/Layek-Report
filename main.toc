@@ -23,3 +23,7 @@
 \contentsline {chapter}{\numberline {3}Non-Abelian Gauge Theory}{6}{chapter.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Yang-Mills Theory of non-Abelian gauge fields}{6}{section.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Interactions of non-Abelian Gauge Fields}{7}{section.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Quantum Chromodynamics}{7}{section.44}

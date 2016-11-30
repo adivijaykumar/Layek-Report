@@ -351,9 +351,7 @@ supervision.\\[2.5cm]
             \vspace{1cm}
             \emph{Under the supervision of:} \\[0.3cm]
             \supname \\ % The supervisor's name
-            \& \\
-            \cosupname\\[1cm] % The co-supervisor's name
-        \end{center}
+                    \end{center}
 
         \includegraphics{Figures/bits-logo.pdf} % University/department logo
        \\[1cm]
