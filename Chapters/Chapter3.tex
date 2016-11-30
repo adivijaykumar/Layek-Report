@@ -10,33 +10,50 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Yang-Mills Theory of non-Abelian gauge fields}
+\section{Yang-Mills Theory of non-Abelian Gauge Fields}
+The Lagrangian of QED has a U(1) (Abelian) symmetry. But what about non-Abelian transformations?
 
-As we have already seen, a Lagrangian should remain invariant under global/local transformations. This means that the Lagrangian should have both global and local symmetries.
-
-For spin-1 fields, like the electromagnetic field, U(1) symmetries exist. For other fields, such as the gluonic field for instance, SU(N) symmetry exists.
-
-Let's consider one such system given by 
-
-
-Let $\psi^{'} = U\psi$, $U \in SU(N)$. We can then say
+Let's consider one such system given by $\psi^{'} = U\psi$, $U \in SU(N)$. We can then say \cite{lahiri04}
 
 \begin{equation}
-L_{\psi^{'}} = \overset{_}{\psi}U^{-1}(i{\gamma^\mu}\partial_\mu-m)U\psi
+{L_{\psi^{'}}} = \overset{-}{\psi}U^{-1}(i{\gamma^\mu}\partial_\mu-m)U{\psi}
 \end{equation}
 \begin{equation}
-L_{\psi^{'}} = L_\psi + \overset{_}{\psi}U^{-1}(i{\gamma^\mu})\partial_\mu(U)\psi \\
+{L_{\psi^{'}}} = {L_\psi} + \overset{-}{\psi}U^{-1}(i{\gamma^\mu}){\partial_{\mu}}(U){\psi} \\
 \end{equation}
-This hence warants the introduction of a new gauge field such that $L_{\psi^{'}} = L_\psi$
-
-We introduce covariant derivative $D_{\mu}$, such that the modified Lagrangian is given by
+Thus, the Lagrangian of the free Dirac particle has to undergo a "gauging" process to remaiv invarinat to $SU(N)$ transformations.\\
+We introduce covariant derivative $D_{\mu}$, such that the modified Lagrangian is given by \cite{lahiri04}
 \begin{equation}
-{L} = \overset{_}{\psi}(i{\gamma^\mu}D_\mu-m)\psi
+{L} = \overset{-}{\psi}(i{\gamma^\mu}D_\mu-m){\psi}
 \end{equation}
-$D_\mu = \partial_\mu +igT_{a}A^{a}_{\mu}$, where $g$ is coupling constant, $T_{a}$ are the generators of SU(N), and $A^{a}_{\mu}$ is the gauge field.
+$D_\mu = \partial_\mu +igT_{a}A^{a}_{\mu}$, where $g$ is coupling constant, $T_{a}$ are the generators of SU(N), and $A^{a}_{\mu}$ is the gauge field introduced to make Lagrangian invariant.
 
 It can be proved that the this Lagrangian is invariant under SU(N), and the following condition is satisfied
-
 \begin{equation}
 T_{a}{A^{a}_{\mu}}^{'} = \frac{i}{g}(\partial_{\mu}U)U^{-1} + UT_{a}A^{a}_{\mu}U^{-1}
 \end{equation}
+To account for the gauge field, it is possible to define a Pure Gauge Lagrangian as follows
+\begin{equation}
+	{L_{YM}}=-\frac{1}{4}{{F^a}_{\mu\nu}}{{F^{\mu\nu}_a}}
+\end{equation}
+where
+\begin{equation}
+	{{F^a}_{\mu\nu}}={\partial_\mu}{A^a}_\nu - {\partial_\nu}{A^a}_\mu -g{f_{abc}}{{A^b}_\mu}{{A^c}_\nu}
+\end{equation}
+Thus,
+\begin{equation}
+{L} = \overset{-}{\psi}(i{\gamma^\mu}D_\mu-m){\psi} - \frac{1}{4}{{F^a}_{\mu\nu}}{{F^{\mu\nu}_a}}
+\end{equation}
+
+\section{Interactions of non-Abelian Gauge Fields}
+On expanding equation (3.7) using $D_\mu = \partial_\mu +igT_{a}A^{a}_{\mu}$, we get,
+\begin{equation}
+{L_{int}} = -g{\overset{-}{\psi}{T_a}{\gamma^\mu}{{A^a}_\mu}{\psi}
+\end{equation}
+This is the Lagrangian for the Yang-Mills Interaction between a Dirac Current due to charge "g" and the Gauge Field.
+\\
+Yang-Mills Theory is remarkable in the sense that it allows for an self-interacting term as $L_{YM}$ contains terms that interact amongst themselves. This means that the dynamics of the gauge bosons is much more complex than in QED as the bosons affect each other by their motion.
+
+\section{Quantum Chromodynamics}
+Non Abelian gauge theories describe most interactions known. The theory that arises out of $SU(3)$ symmetry is named Quantum Chromodynamics or QCD for short. The generators of $SU(3)$ are eight in number and thus there are said to be eight gauge fields ${G^a}_{\mu}$. The quanta of these fields are called "gluons".\\
+There are two broad classes of fermions - leptons and hadrons. The hadrons are composite particles themselves and are composed of quarks. While leptons don't undergo strong interaction, the quarks do and their physics can partly be described using QCD.

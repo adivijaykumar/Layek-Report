@@ -1,70 +1,38 @@
 % Chapter 1
 
-\chapter{Fields Describing Free Particles} % Main chapter title
+\chapter{Free Particle Fields} % Main chapter title
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
-\lhead{Chapter 1. \emph{Fields describing Free Particles}} % This is for the header on each page - perhaps a shortened title
+\lhead{Chapter 1. \emph{Klein-Gordon Field}} % This is for the header on each page - perhaps a shortened title
 
-%---------------------------------------------------%
+%----------------------------------------------------------------------------------------
 
-\section{Introduction}
-
-In the realm of classical physics, we first found out by Newton's formulation that the total amount of force acting on a body is directly proportional to its acceleration. We also realized that there is an equivalent formulation given by Lagrange, which involves a system-describing quantity called the Lagrangian, and a set of equations that map the trajectory of the body. We are also aware of the principles of quantum mechanics, and the wave mechanics, matrix mechanics models. Einstein also postulated his theory of relativity, which described classical physics at very high speeds.
-
-The special theory of relativity postulated by Einstein and quantum mechanics are unified using a quantum theory to describe fields. Any Lagrangian here would have complete information about how the wavefunction of a particular system would eveolve in time, along with its probability densities.
-
-\section{Vector Fields}
-The electromagnetic field is a vector field. JC Maxwell gave the famous laws, which describe electric and magnetic fields. Given below are Maxwell's equations in free space
-
-\begin{subequations}
-\begin{align}
-{\nabla}.E=\rho,\\
-{\nabla}.B=0\\
-\frac{\partial B}{\partial t}&=-\nabla \times E,\\
-\frac{\partial B}{\partial t}&=\nabla \times B - 4\pi j,
-\end{align}
-\end{subequations}
-
-For these electric and magnetic fields, we can define potentials as follows
-\begin{subequations}
-\begin{align}
-E={-\nabla}E+\frac{\partial A}{\partial t}\\
-B=\nabla \times A
-\end{align}
-\end{subequations}
-
-If we write $A^{\mu} = (A^0,\overset{\xrightarrow{}}{A})$, we could write
-\begin{equation}
-F_{\mu\nu} = \partial_\mu{A_\nu}-\partial_\nu{A_\mu_}
-\end{equation}
-
-where 
- is a tensor, called very appropriately as the field strength tensor.
-
-
-Using this, the Lagrangian for the electromagnetic field can be constructed as follows
-\begin{equation}
-{L} = -\frac{1}{4}F_{{\mu}\nu}F^{{\mu}\nu}
-\end{equation}
-
-\section{Particles with Spin Zero}
-The Lagrangian for a scalar field is as follows:
+\section{Spin-0 Particles}
+Quantum Field Theory is the theory in theoretical physics that is used to study field that are bound by the laws of Quantum Mechanics and Einstein's Theory of Relativity. In Field Theory, a Lagrangian is defined that remains invariant to any coordinate transformation. The Lagrangian thus defined contains all information about the particle that is needed to be known; in classical field theory it contains the past, present, and future forms of the trajectory of the particle and in quantum field theory it contains the nature of evolution of the wavefunction, and thus the probability distribution, of the particle for all time. The Lagrangian for a scalar field (A field with just one quantifier at each point in space-time) is as follows:
 
 \begin{equation}
 {L} = \frac{1}{2}({\partial^{\mu}} \Phi)({\partial_{\mu}} \Phi^*) - \frac{1}{2}m\Phi\Phi^*
 \end{equation}
-
-This field is called the Klein-Gordon field, and describes spin zero particles. On applying the Euler Lagrange equations using this Lagrangian, we can arrive at equations of motion for this field.
-
+This is the Klein-Gordon Field of spin-0 particles. Equation (1.q) is called the Klein-Gordon field after physicists Oskar Klein and Walter Gordon who proposed this model to describe relativistic particles in 1926.\cite{KGE}
+The Hamiltonian for such a particle can be derived from the Euler-Lagrange equations of motion. Alternatively, in Relativistic Mechanics, \cite{lahiri04}
+\begin{equation}
+p^{\mu}p_{\mu}-m^2=0
+\end{equation}
+and
+\begin{equation}
+ p_{\mu} \xrightarrow{} i{\partial_{\mu}}
+\end{equation}
+in the position representation of momentum.
+When this relation is applied to equation (1.2) we get equation (1.4) which describes the Hamiltonian of such a particle.
 \begin{equation}
 (\partial^{\mu}\partial_{\mu}+m^2)\Phi(x)=0
 \end{equation}
+%----------------------------------------------------------------------------------------
 
-\section{Particles with spin-$\frac{1}{2}$}
-
-British physicist Paul Dirac in 1928 derived a relativistic wave equation in 1928, which described all spin-$\frac{1}{2}$ particles. This equation, now known famously as the Dirac equation, is as follows
-
+\section{Spin-$ \frac{1}{2}$}
+\subsection{Dirac Equation}
+The Dirac Hamiltonian for a spin-$ \frac{1}{2} $ particle, commonly referred to as the "Dirac Equation" is \cite{lahiri04}
 \begin{equation}
 (i\gamma^{\mu}\partial_\mu-m)\psi(x)=0
 \end{equation}
@@ -79,10 +47,7 @@ where
 -\sigma_i & 0
 \end{bmatrix}
 \end{eqnarray}
-
-The Klein-Gordon equation offers only one solution. The Dirac equation on the other hand gives four solutions, which can be written in matrix form as 
-
-
+The Dirac equation offers four interesting solutions instead of one that the Klein-Gordon field gives. These are, upon solving (1.5) \cite{griffiths08},
 \begin{eqnarray}
 \psi_a=\begin{bmatrix}
 1\\
@@ -109,11 +74,48 @@ p_z/(p^0+m)\\
 1
 \end{bmatrix}
 \end{eqnarray}
-
-The Dirac Field Lagrangian corresponding to the Dirac equation is given by
-
+The first two equations describe the spin up ($\psi_a$) and spin down ($\psi_b$) particles respectively while the last two describe the spin up ($\psi_c$) and spin down ($\psi_d$) anti-particles.
+\subsection{Dirac Field}
+The Dirac Field for particle described by the Dirac equation is \cite{lahiri04}
 \begin{equation}
 {L} = \overset{-}{\psi}(i{\gamma^\mu}\partial_\mu-m)\psi
 \end{equation}
+The Euler-Lagrangian equations of (1.10) give rise to (1.5).
+An interesting observation at this stage, which will be of huge significance in Chapter 3, is that the Dirac field is invariant under transformations of the kind
+\begin{equation}
+\psi \xrightarrow{} e^{-iq\theta}\psi
+\end{equation}
 
 
+This symmetry is an example of U(1) symmetry and the transformation elements are members of the U(1) symmetry group.
+\subsection{Vector Fields}
+It is enriching to explore Vector Fields, especially the Electromagnetic Field, at this stage. From, Classical Physics, Maxwell's equations are of the form \cite{griffiths13}
+\begin{subequations}
+Maxwell's equations in free space:
+\begin{align}
+{\nabla}.E=\rho,\\
+{\nabla}.B=0\\
+\frac{\partial B}{\partial t}&=-\nabla \times E,\\
+\frac{\partial B}{\partial t}&=\nabla \times B - 4\pi j,
+\end{align}
+\end{subequations}
+Potential can be defined for these fields such that
+\begin{subequations}
+\begin{align}
+E={-\nabla}E+\frac{\partial A}{\partial t}\\
+B=\nabla \times A
+\end{align}
+\end{subequations}
+Defining a tensor $ F_{\mu\nu} $, called the field strength tensor while writing $A^{\mu}=(A^0,\overset{\xrightarrow{}}{A})$ such that, \cite{lahiri04}
+\begin{equation}
+F_{\mu\nu} = \partial_\mu{A_\nu}-\partial_\nu{A_\mu_}
+\end{equation}
+A Lagrangian can be written for the electromagnetic field as follows,
+\begin{equation}
+{L} = -\frac{1}{4}F_{{\mu}\nu}F^{{\mu}\nu}
+\end{equation}
+The Electomagnetic Field is known to be invariant under gauge transformations of the sort
+\begin{equation}
+{A^'}_\mu \xrightarrow{} {A_{\mu}}+{{\partial}_{\mu}}{\theta}
+\end{equation} 
+%----------------------------------------------------------------------------------------
