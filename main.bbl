@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.3 $
+% $ biblatex version 2.6 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,83 +16,57 @@
   {}
 \endgroup
 
-\entry{griffiths13}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Griffiths}{G.}%
-     {David}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{GD1}
-  \strng{fullhash}{GD1}
-  \field{sortinit}{G}
-  \field{title}{Introduction to Electrodynamics}
-  \field{year}{2013}
-\endentry
-
-\entry{griffiths08}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Griffiths}{G.}%
-     {David}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{GD1}
-  \strng{fullhash}{GD1}
-  \field{sortinit}{G}
-  \field{title}{Introduction to Elementary Particles}
-  \field{year}{2008}
-\endentry
-
-\entry{halzen84}{book}{}
+\entry{kendall2007practical}{inproceedings}{}
   \name{author}{2}{}{%
     {{}%
-     {Halzen}{H.}%
-     {Francis}{F.}%
+     {Kendall}{K.}%
+     {Kris}{K.}%
      {}{}%
      {}{}}%
     {{}%
-     {Martin}{M.}%
-     {{Alan D.}~Martin}{A.~M.}%
+     {McMillan}{M.}%
+     {Chad}{C.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{HFMAM1}
-  \strng{fullhash}{HFMAM1}
-  \field{sortinit}{H}
-  \field{title}{Quarks and Leptons, An Introductory Course in Modern Partice
-  Physics}
-  \field{year}{1984}
-\endentry
-
-\entry{KGE}{online}{}
+  \strng{namehash}{KKMC1}
+  \strng{fullhash}{KKMC1}
   \field{sortinit}{K}
-  \field{title}{Klein-Gordon equation}
-  \verb{url}
-  \verb https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation
-  \endverb
+  \field{booktitle}{Black Hat Conference, USA}
+  \field{pages}{10}
+  \field{title}{Practical malware analysis}
+  \field{year}{2007}
 \endentry
 
-\entry{lahiri04}{book}{}
-  \name{author}{2}{}{%
+\entry{cmu-malware}{article}{}
+  \name{author}{4}{}{%
     {{}%
-     {Lahiri}{L.}%
-     {Amitabha}{A.}%
+     {O’Meara}{O.}%
+     {Kyle}{K.}%
      {}{}%
      {}{}}%
     {{}%
-     {Pal}{P.}%
-     {{Palash B}.}{P.}%
+     {Shick}{S.}%
+     {Deana}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spring}{S.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stoner}{S.}%
+     {Edward}{E.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{LAPP1}
-  \strng{fullhash}{LAPP1}
-  \field{sortinit}{L}
-  \field{title}{A First Book of Quantum Field Theory}
-  \field{year}{2004}
+  \strng{namehash}{OK+1}
+  \strng{fullhash}{OKSDSJSE1}
+  \field{sortinit}{O}
+  \field{title}{Malware Capability Development Patterns Respond To Defenses:
+  Two Case Studies}
+  \field{year}{2016}
 \endentry
 
 \lossort
